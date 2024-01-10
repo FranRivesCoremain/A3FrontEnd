@@ -1,0 +1,59 @@
+body {
+  --sansSerifFont: 'Ubuntu';
+  --serifFont: 'Zilla Slab';
+
+  --neutralColor1: #f8f8f8;
+  --neutralColor2: #f1f1f1;
+  
+  --highlightColor1: #e60000;
+  --highlightColor2: #cd0000;
+  --highlightColor3: #b40000;
+  --highlightColor4: #9b0000;
+  --highlightColor5: #820000;
+  
+  --infoColor1: #00b0ca;
+  --infoColor2: #0096ac;
+  --infoColor3: #007c8e;
+  
+  --warningColor1: #fecb00;
+  --warningColor2: #e0b300;
+  --warningColor3: #c29b00;
+  
+  --errorColor1: #eb9700;
+  --errorColor2: #cd8400;
+  --errorColor3: #af7000;
+
+  --coldNeutralColor1: #25282b;
+  --coldNeutralColor1RGB: 37, 40, 43;
+  --coldNeutralColor2: #2f3132;
+  --coldNeutralColor3: #383a3c;
+  --coldNeutralColor4: #414446;
+  --coldNeutralColor5: #4b4d50;
+  --coldNeutralColor6: #545759;
+  --coldNeutralColor7: #5d6164;
+  --coldNeutralColor8: #676a6e;
+  --coldNeutralColor9: #707478;
+  --coldNeutralColor10: #797e82;
+  --coldNeutralColor11: #83878c;
+  --coldNeutralColor12: #8c9196;
+  --coldNeutralColor13: #959ba0;
+  --coldNeutralColor14: #9fa4aa;
+  --coldNeutralColor15: #a8aeb4;
+  --coldNeutralColor16: #b1b8be;
+  --coldNeutralColor17: #bbc1c8;
+  --coldNeutralColor18: #c4cbd2;
+  --coldNeutralColor19: #cdd5dc;
+  --coldNeutralColor20: #d7dee6;
+  --coldNeutralColor21: #e9f2fa;
+  --coldNeutralColor22: #fafaff;
+
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--coldNeutralColor22);
+}
+
+::selection {
+  color: var(--coldNeutralColor22);
+  background-color: var(--highlightColor3);
+}
